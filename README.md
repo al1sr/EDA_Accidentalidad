@@ -1,48 +1,48 @@
-# Análisis de accidentalidad en Madrid (2019-2025)
+# Analysis of road accidents in Madrid (2019–2025)
 
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)
 ![Data Analysis](https://img.shields.io/badge/Data-Analysis-green?style=for-the-badge)
 
-## Descripción del proyecto
-Este proyecto realiza un análisis exhaustivo de los siniestros viales registrados por la Policía Municipal en la ciudad de Madrid durante un periodo de 6 años. El objetivo es consolidar múltiples fuentes de datos, limpiar la información y visualizar patrones temporales y geográficos de la accidentalidad.
+## Project description
+This project conducts a comprehensive analysis of road traffic accidents recorded by the Municipal Police in the city of Madrid over a six-year period. The aim is to consolidate multiple data sources, clean the data and visualise temporal and geographical patterns of accident rates.
 
-**Dataset:** el análisis se basa en los microdatos abiertos del Ayuntamiento de Madrid, consolidando archivos anuales en un único corpus de **312,980 registros**.
+**Dataset:** the analysis is based on open microdata from Madrid City Council, consolidating annual files into a single corpus of **312,980 records**.
 
-## Tecnologías y librerías
-* **Python**: procesamiento de datos.
-* **Pandas**: unión de datasets (Merge/Concat) y limpieza.
-* **Matplotlib / Seaborn**: generación de series temporales y gráficos de barras.
+## Technologies and libraries
+* **Python**: data processing.
+* **Pandas**: merging datasets (Merge/Concat) and cleaning.
+* **Matplotlib / Seaborn**: generation of time series and bar charts.
 
-## Puntos clave del análisis
+## Key points of the analysis
 
-### 1. Consolidación de Big Data local
-* **Unión de fuentes**: integración de 4 archivos CSV independientes (2019 a 2025) en un único Dataframe maestro.
-* **Tratamiento de nulos**: identificación y gestión de valores faltantes en columnas críticas como `lesividad`.
+### 1. Consolidation of local Big Data
+* **Merging of sources**: integration of 4 separate CSV files (2019 to 2025) into a single master DataFrame.
+* **Handling of null values**: identification and management of missing values in critical columns such as `severity`.
 
-### 2. Análisis de lesividad y tipología
-* **Métricas de seguridad**: clasificación de accidentes por gravedad (desde asistencia sanitaria básica hasta fallecimientos).
-* **Tipos de siniestros**: análisis de las causas más comunes (colisiones fronto-laterales, alcances, atropellos).
+### 2. Severity and typology analysis
+* **Safety metrics**: classification of accidents by severity (ranging from minor injuries to fatalities).
+* **Types of accidents**: analysis of the most common causes (head-on and side-impact collisions, rear-end collisions, pedestrians being hit).
 
-### 3. Patrones temporales
-* **Análisis por horas**: identificación de las "horas punta" de accidentes (destacando el incremento a las 14:00 y las 18:00-19:00).
-* **Análisis mensual**: comparativa de la siniestralidad a lo largo del año para detectar estacionalidad.
+### 3. Temporal patterns
+* **Analysis by hour**: identification of ‘peak times’ for accidents (highlighting the increase at 14:00 and between 18:00 and 19:00).
+* **Monthly analysis**: comparison of accident rates throughout the year to detect seasonality.
 
-## ¿Cómo ejecutarlo?
+## How to run it?
 
-1. Asegúrate de tener los archivos CSV de accidentalidad (2019 a 2025) en la misma carpeta que el notebook.
-2. Instala las dependencias:
+1. Ensure you have the accident CSV files (2019 to 2025) in the same folder as the notebook.
+2. Install the dependencies:
    ```bash
    pip install pandas matplotlib seaborn
    
-3. Ejecuta el archivo `EDA_Accidentalidad.ipynb`
+3. Run the `EDA_Accidentalidad.ipynb` file
 
-## Contexto académico
+## Academic context
 
-Este proyecto forma parte del módulo de Python para Data Science, enfocado en la capacidad de procesar grandes volúmenes de datos municipales y transformarlos en visualizaciones accionables.
+This project forms part of the Python for Data Science module, which focuses on the ability to process large volumes of municipal data and transform them into actionable visualisations.
 
-**Desarrollado por:** Alicia Santamaría Román 
+**Developed by:** Alicia Santamaría Román 
 
-**Contacto:** https://linkedin.com/in/aliciasantamariaroman
+**Contact:** https://linkedin.com/in/aliciasantamariaroman
 
 
